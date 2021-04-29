@@ -1,0 +1,192 @@
+/* body{
+    background: rgba(0, 0, 0, .48) url('../img/bg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-blend-mode: darken;
+} */
+html {
+    scroll-behavior: smooth;
+  }
+/* start navbar */
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color: unset;
+
+}
+ul{
+    list-style: none;
+}
+.navbar{
+    padding: 30px 80px;
+    background-color: #fff;
+}
+.navbar-brand{
+    color: #000;
+    width: 300px;
+}
+.navbar-brand:hover{
+    color: #000;
+}
+.navbar-nav .nav-item a{
+    color: #000;
+}
+.navbar-nav .nav-item.active {
+    background-color: rgb(214, 129, 0);
+}
+.navbar-nav .nav-item.active a{
+    color: #fff;
+}
+.navbar-nav .nav-item a:hover{
+    color: #007e91;
+    transform: scale(1.05);
+    transition: all 0.3 ease;
+}
+
+
+
+/* End navbar */
+
+/* slider */
+.carousel-inner{
+    height: 500px;
+}
+/* slider */
+
+/* start content */
+
+.content{
+    padding: 30px 20px;
+}
+.btn-div .services-a{
+    text-decoration: none;
+    color: #343a40;
+}
+
+.services-a2{
+    text-decoration: none;
+    color: #343a40;
+}
+
+.btn-div .contact-a{
+    text-decoration: none;
+    color: #343a40;
+}
+/* .content .contact-a:hover,.content .services-a:hover{
+    color: #fff;
+} */
+.btn-div{
+    display: flex;
+    justify-content: space-between;
+}
+.profile-pic {
+    display: flex;
+    justify-content: flex-end;
+}
+/*  */
+
+
+
+
+/* Services */
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #eee;
+    padding: 40px 0;
+}
+
+.services .col-md-4{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-div{
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+
+.services-a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.services h2{
+    margin-bottom: 20px;
+}
+
+.services p {
+    font-weight: 600;
+}
+
+/* Services copy */
+
+
+
+
+
+
+
+
+/* Services copy */
+
+
+
+/* footer */
+.footer{
+    background-color:#343a40 ; 
+    color: #fff;
+}
+
+.footer .linkedin-ic{
+    font-size: 20px;
+}
+.footer h5{
+    padding-left: 40px;
+}
+.footer .linkedin-ic a{
+     color: #fff; 
+}
+
+
+
+
+
+
+
+@media (max-width: 965px){
+    .navbar {
+        padding: 30px 8px;
+        background-color: #fff;
+    }
+    .navbar-brand {
+        color: #000;
+        width: 150px;
+    }
+}
+
+@media (max-width: 766px){
+    .carousel-inner {
+        height: auto;
+    }
+    .profile-pic {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 400px){
+    .navbar-brand {
+        color: #000;
+        width: 150px;
+    }
+}
